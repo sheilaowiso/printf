@@ -23,6 +23,7 @@ int _printf(const char *format, ...)
 		{"X", print_heX},
 		{NULL, NULL}
 	};
+
 	va_list arg_list;
 
 	if (format == NULL)
