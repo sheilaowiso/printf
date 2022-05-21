@@ -21,7 +21,6 @@ struct convert
 };
 typedef struct convert conver_t;
 
-
 /* helper functions*/
 void write_base(char *str);
 char *rev_string(char *s);
