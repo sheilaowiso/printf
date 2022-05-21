@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * rev_string - reverses a string in place
  *
@@ -17,8 +16,6 @@ char *rev_string(char *s)
 
 	for (len = 0; s[len] != '\0'; len++)
 	{}
-
-
 
 	dest = malloc(sizeof(char) * len + 1);
 	if (dest == NULL)
