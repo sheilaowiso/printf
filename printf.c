@@ -1,8 +1,7 @@
 #include "main.h"
 
-
 /**
- * _printf - mini printf version
+ * _printf - printf version
  * @format: initial string with all identifiers
  * Return: strings with identifiers expanded
  */
