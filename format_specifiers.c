@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * print_char - returns char as string
  * @list: char
