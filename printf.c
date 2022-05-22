@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - printf version
+ * _printf - printf logic
  * @format: initial string with all identifiers
  * Return: strings with identifiers expanded
  */
@@ -30,7 +30,7 @@ int _printf(const char *format, ...)
 		return (-1);
 	va_start(arg_list, format);
 
-	/* Calling parse function */
+	/* Call parse function */
 	printed_chars = parser(format, f_list, arg_list);
 	va_end(arg_list);
 	return (printed_chars);
