@@ -85,7 +85,7 @@ int print_octal(va_list list)
 /**
  * print_hex - Prints a representation of a decimal number on base16 lowercase
  * @list: List of the arguments passed to the function
- * Return: Number of characters printed
+ * Return: Number of chars printed
  */
 int print_hex(va_list list)
 {
