@@ -3,6 +3,7 @@
 /**
  * _printf - printf logic
  * @format: initial string with all identifiers
+ *
  * Return: strings with identifiers expanded
  */
 int _printf(const char *format, ...)
