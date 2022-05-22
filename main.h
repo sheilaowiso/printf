@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 /**
-* struct convert - defines a structure for symbols and functions
+* struct convert - structure for symbols and functions
 *
 * @sym: The operator
 * @f: The function associated
@@ -21,7 +21,7 @@ struct convert
 };
 typedef struct convert conver_t;
 
-/* helper functions*/
+/* Helper functions*/
 void write_base(char *str);
 char *rev_string(char *s);
 unsigned int base_len(unsigned int num, int base);
