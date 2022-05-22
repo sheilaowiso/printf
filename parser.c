@@ -4,7 +4,7 @@
  * parser - Receives the main string and all te necessary parameters to print
  * a formated string.
  * @format: String containing all the desired characters.
- * @f_list: A list of all possible functions.
+ * @f_list: List of all possible functions.
  * @arg_list: A list containing all the arguments passed to the program.
  * Return: A total count of the characters printed.
  */
