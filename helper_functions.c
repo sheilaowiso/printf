@@ -42,7 +42,7 @@ void write_base(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		_write_char(str[i]);
 }
-`
+
 /**
  * base_len - Calculates the length for an octal number
  * @num: The number for which the length is being calculated
