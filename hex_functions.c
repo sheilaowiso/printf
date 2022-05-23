@@ -3,7 +3,7 @@
 
 int hex_check(int, char);
 /**
- * print_binary - Converts a number from base 10 to binary
+ * print_binary - Converts a base 10 number to binary
  * @list: List of arguments passed to this function
  * Return: The length of the number printed
  */
@@ -85,7 +85,7 @@ int print_octal(va_list list)
 /**
  * print_hex - Prints a representation of a decimal number on base16 lowercase
  * @list: List of the arguments passed to the function
- * Return: Number of characters printed
+ * Return: Number of chars printed
  */
 int print_hex(va_list list)
 {

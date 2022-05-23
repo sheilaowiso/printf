@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_reversed - Calls a function to reverse and print a string
+ * print_reversed - Function to reverse and print a string
  * @arg: Argument passed to the function
+ *
  * Return: The amount of characters printed
  */
 int print_reversed(va_list arg)
@@ -26,6 +27,7 @@ int print_reversed(va_list arg)
 /**
  * rot13 - Converts string to rot13
  * @list: string to convert
+ *
  * Return: converted string
  */
 int rot13(va_list list)

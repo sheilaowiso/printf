@@ -42,7 +42,7 @@ void write_base(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		_write_char(str[i]);
 }
-
+`
 /**
  * base_len - Calculates the length for an octal number
  * @num: The number for which the length is being calculated
@@ -62,7 +62,7 @@ unsigned int base_len(unsigned int num, int base)
 
 /**
  * _memcpy - copy memory area
- * @dest: Destination for copying
+ * @dest: destination for copying
  * @src: Source to copy from
  * @n: The number of bytes to copy
  * Return: The _memcpy() function returns a pointer to dest.
